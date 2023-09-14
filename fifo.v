@@ -1,3 +1,5 @@
+`timescale 10ns/1ns
+
 module fifo(clk,rst,data_in,data_out,wr_en,rd_en,full,empty,count);
 
 input clk,rst,wr_en,rd_en;
